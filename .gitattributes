@@ -1,3 +1,4 @@
 * linguist-vendored
 *.cpp linguist-vendored=false
 Python/grundlagen/* linguist-vendored=false
+Python/polygonzug/* linguist-vendored=false
