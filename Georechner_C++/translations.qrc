@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/new/prefix1">
+        <file>lang_fr.qm</file>
+        <file>bogen.png</file>
+        <file>carl-friedrich-gauss.jpg</file>
+        <file>Geocalc.png</file>
+        <file>Affine.gif</file>
+        <file>helmert.png</file>
+        <file>poly.png</file>
+        <file>turm.png</file>
+        <file>rueckwaertsschnitt.png</file>
+        <file>Vorwaertsschnitt.png</file>
+        <file>Vorwaertsschnitt2.png</file>
+        <file>transformationen/runds_polygon.json</file>
+        <file>transformationen/lokale_Punkte.json</file>
+        <file>transformationen/punkte_polygon.json</file>
+        <file>transformationen/lokale_Punkte2.json</file>
+        <file>lang_de.qm</file>
+        <file>lang_en.qm</file>
+    </qresource>
+</RCC>

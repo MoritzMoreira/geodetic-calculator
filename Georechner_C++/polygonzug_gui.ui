@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>polygonzug_gui</class>
+ <widget class="QDialog" name="polygonzug_gui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>891</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Polygonzug</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit_p">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>310</y>
+     <width>261</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_dateipfad_p">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>20</y>
+     <width>611</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>280</y>
+     <width>211</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;b&gt;gesuchte Punkte&lt;/b&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>211</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;b&gt;gegebene Punkte (json)&lt;/b&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_berechne">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>berechne</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_poly">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>90</y>
+     <width>741</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_datei_p">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Punkt-Datei </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_test">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Testdaten </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_speichern">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>280</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> speichern</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>280</y>
+     <width>311</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;b&gt;gemessene Richtungen / Strecken &lt;/b&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_rs">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>310</y>
+     <width>261</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_pn">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>310</y>
+     <width>261</width>
+     <height>381</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_datei_rs">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Strecken und Richtungen </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_dateipfad_rs">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>60</y>
+     <width>611</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>161</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Winkelabschluss-
+fehler (gon):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_waf">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>plainTextEdit_p</zorder>
+  <zorder>lineEdit_dateipfad_p</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_11</zorder>
+  <zorder>pushButton_berechne</zorder>
+  <zorder>label_poly</zorder>
+  <zorder>pushButton_datei_p</zorder>
+  <zorder>pushButton_test</zorder>
+  <zorder>pushButton_speichern</zorder>
+  <zorder>label_13</zorder>
+  <zorder>plainTextEdit_rs</zorder>
+  <zorder>plainTextEdit_pn</zorder>
+  <zorder>pushButton_datei_rs</zorder>
+  <zorder>lineEdit_dateipfad_rs</zorder>
+  <zorder>lineEdit_waf</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

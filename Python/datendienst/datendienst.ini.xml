@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datendienst id="pga" version="1.0.2">
+    <benutzer id="02_A" gruppe="jhs_2020-21_pga">
+        <jwt>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJodHRwczpcL1wvY21oLmNtaGl2ZS5kZVwvcHJpdmF0ZVwvdXNlcl9ybGUiOiJzdWJzY3JpYmVyIiwiaHR0cHM6XC9cL2NtaC5jbWhpdmUuZGVcL3ByaXZhdGVcL3VzZXJfZ3JwIjoiamhzXzIwMjAtMjFfcGdhIiwiaHR0cHM6XC9cL2NtaC5jbWhpdmUuZGVcL3ByaXZhdGVcL3VzZXJfc3ppZCI6IjAyX0EiLCJpc3MiOiJodHRwczpcL1wvY21oLmNtaGl2ZS5kZSIsImV4cCI6MTYxNzIyNzk5OSwibmJmIjoxNjA5NDU1NjAwLCJpYXQiOjE2MTA0NjQwNjgsImp0aSI6IjZjNTA2NDViLWMwNDgtMGNiYS1hZTJjLTU3MDI2YTM1YTQ3MSJ9.iEHwq4YCP-qNbsso8-SKXGEssIXF1A6DomXoajLNU64~</jwt>
+    </benutzer>
+    <klassen>
+        <point klasse="Punkt">
+            <no typ="str" attribut="__nr"></no>
+            <y typ="float" attribut="__y"></y>
+            <x typ="float" attribut="__x"></x>
+        </point>
+        <distance klasse="Strecke">
+            <d typ="float" attribut="d"></d>
+            <no typ="str" attribut="__nr"></no>
+            <id_ps typ="str" attribut="__id_ps"></id_ps>
+            <id_pe typ="str" attribut="__id_pe"></id_pe>
+        </distance>
+        <angle klasse="Winkel">
+            <a typ="float" attribut="a"></a>
+            <no typ="str" attribut="__nr"></no>
+            <id_pp typ="str" attribut="__id_pp"></id_pp>
+            <id_ps typ="str" attribut="__id_ps"></id_ps>
+            <id_pe typ="str" attribut="__id_pe"></id_pe>
+        </angle>
+    </klassen>
+</datendienst>

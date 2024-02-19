@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Winkel_gui</class>
+ <widget class="QDialog" name="Winkel_gui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Winkeleinheiten konvertieren</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>312</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_rad"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="rad_3">
+        <property name="text">
+         <string>rad    </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="umrechnen_rad">
+        <property name="text">
+         <string>umrechnen</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_gon"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="gon">
+        <property name="text">
+         <string>gon   </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="umrechnen_gon">
+        <property name="text">
+         <string>umrechnen</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_grad"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="Grad">
+        <property name="text">
+         <string>Grad </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="umrechnen_grad">
+        <property name="text">
+         <string>umrechnen</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
