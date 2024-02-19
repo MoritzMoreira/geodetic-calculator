@@ -1,4 +1,4 @@
-* linguist-vendored
+Python/transformationen/* linguist-vendored
 *.py linguist-vendored=false
 *.cpp linguist-vendored=false
 *.h linguist-vendored=false
