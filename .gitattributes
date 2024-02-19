@@ -6,3 +6,7 @@ Python/polygonzug/* linguist-vendored
 Python/schnitte/* linguist-vendored
 Python/Scripts/* linguist-vendored
 Python/transformationen/* linguist-vendored
+Python/venv/* linguist-vendored
+Python/.idea/* linguist-vendored
+Python/.venv/* linguist-vendored
+erstegrund.py linguist-vendored=false
