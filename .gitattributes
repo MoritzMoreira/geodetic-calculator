@@ -4,6 +4,5 @@ Python/ergebnisdaten/* linguist-vendored
 Python/grundlagen/* linguist-vendored
 Python/polygonzug/* linguist-vendored
 Python/schnitte/* linguist-vendored
-#*.cpp linguist-vendored=false
-#*.h linguist-vendored=false
+
 
