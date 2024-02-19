@@ -4,3 +4,5 @@ Python/ergebnisdaten/* linguist-vendored
 Python/grundlagen/* linguist-vendored
 Python/polygonzug/* linguist-vendored
 Python/schnitte/* linguist-vendored
+Python/Scripts/* linguist-vendored
+Python/transformationen/* linguist-vendored
